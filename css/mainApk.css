@@ -1,0 +1,400 @@
+* {
+    font-family: "Maven Pro", sans-serif !important;
+
+}
+
+.maven-pro {
+    font-family: "Maven Pro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navbar .navbar-toggler {
+    color: white;
+    font-size: 25px;
+    border: 0px solid white !important;
+}
+
+.nav-section {
+    margin: 12px;
+    background-image: url('../images/pexels-rpnickson-3200058.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
+    height: 700px;
+}
+
+
+/* start-navbar */
+.navbar {
+    color: rgb(189, 0, 0);
+    padding: 0 !important;
+    background: #1d2329 !important;
+    border-radius: 12px;
+}
+
+.navbar-nav {
+    height: 100%;
+    gap: 15px;
+    margin-top: 5px;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.nav-item:hover {
+    color: black;
+}
+
+
+
+.navbar-brand img {
+    width: 100%;
+    height: 50px;
+    margin-top: 5px;
+
+}
+
+.navbar .navbar-nav .nav-link.active {
+    color: white;
+}
+
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover {
+    color: #ced2d4;
+    width: fit-content;
+}
+
+.navbar-nav .nav-link {
+    padding: 12px;
+    /* Adjust the space between links as needed */
+}
+
+.navbar .btn {
+    color: var(--color-blue);
+    background-color: white;
+}
+
+.navbar .navbar-toggler {
+    color: white;
+    font-size: 25px;
+    border: 1px solid white;
+}
+
+.navbar .navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.btn-reservation {
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+.btn-reservation:hover {
+    color: #626e78;
+}
+
+.btn-deconnecte {
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+.myreserevation:hover {
+    color: #626e78;
+}
+
+.btn-reservation:hover,
+.btn-deconnecte:hover {
+    color: #a1a1a1;
+}
+
+.user-img {
+    height: 57px;
+    margin-left: 59px;
+}
+
+.btn-2 {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-weight: 700;
+}
+
+.btn-2:hover {
+    background-color: #d4d4d4;
+}
+
+/* end-navbar */
+
+/* start-hero */
+.main {
+    height: 400px;
+}
+
+@media (max-width: 768px) {
+    .main {
+        height: 680px;
+    }
+}
+
+.hero-section {
+
+    height: 500px;
+    width: 100%;
+}
+
+.hero-section h3 {
+    color: #2C5A5F;
+    font-weight: 700;
+    letter-spacing: 2px;
+
+}
+
+.section-img {
+    width: 100%;
+}
+
+#city-input {
+    margin-top: 12px;
+    width: 100%;
+    height: 60px;
+    height: 60px;
+    margin-bottom: 12px;
+    border-radius: 7px;
+    padding: 15px;
+    outline: none;
+    background-color: #efefef;
+    border: none;
+}
+
+#city-input:hover {
+    border: 1px solid #9da1a1;
+}
+
+#city-input:focus {
+    border: 1px solid #a1a1a1;
+}
+
+
+#Recherche {
+    width: 100%;
+    height: 60px;
+    height: 60px;
+    border-radius: 7px;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    outline: none;
+    border: none;
+    background-color: #1d2329;
+
+}
+
+#Recherche:hover,
+#Recherche:focus {
+    background-color: #373f47;
+    transition: ease 0.2s;
+}
+
+.form {
+    background-color: #ffffff;
+    border-radius: 12px;
+}
+
+/* end-hero */
+
+
+/* services-start */
+.service-1 {
+    background-color: #fafafa;
+    margin-top: 10px;
+    border-radius: 12px;
+    padding: 12px;
+}
+
+
+.img-logo {
+    height: 50px;
+}
+
+
+.cards-main {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #fafafa;
+    border-radius: 12px;
+    padding: 12px;
+    box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.3)
+}
+
+.card-car {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    padding: 5px;
+
+}
+
+.cards-main .card-car:not(:last-child) {
+    border-right: 1px solid rgb(190, 186, 186);
+}
+
+.card-car img {
+    width: 160px;
+    height: 80px;
+    margin-bottom: 14px;
+}
+
+.card-car img {
+    transition: transform 0.3s ease-in-out;
+    /* Adds a smooth transition */
+}
+
+.card-car img:hover {
+    transform: scale(1.2);
+    /* Scales the image to 1.5 times its size */
+}
+
+
+
+
+
+
+/* start-contact */
+.contact {
+    background-color: white;
+    height: 200px;
+    width: 100%;
+    padding: 10px;
+}
+
+.contact h1 {
+    font-weight: 700;
+    color: #2C5A5F;
+
+}
+
+.form-control:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    background: #cdd8e0;
+
+}
+
+.contact-form input {
+    height: 50px;
+    border-radius: 5px;
+    background: #eff3f7;
+}
+
+.contact-form textarea {
+    background: #eff3f7;
+}
+
+.contact-form label {
+    font-weight: 600;
+}
+
+textarea {
+    background-color: #eee;
+    border-radius: 5px;
+}
+
+/* end-contact */
+
+
+
+
+/* foter */
+.footer {
+    height: auto;
+    background: #1d2329;
+}
+
+.footer-logo {
+    width: 200px;
+    height: 80px;
+}
+
+.link:hover {
+    color: #9ac4c9 !important;
+}
+
+.fa-brands,
+.fab {
+    font-family: "Font Awesome 6 Brands" !important;
+}
+
+.fa-classic,
+.fa-regular,
+.fa-solid,
+.far,
+.fas {
+    font-family: "Font Awesome 6 Free" !important;
+}
+
+/* end-foter */
+
+
+/* city */
+
+
+/* animation */
+h3 {
+    animation: paragraph linear 2.5s;
+}
+
+
+.hero-section h2 {
+    animation: paragraph linear 2.5s;
+}
+
+
+
+@keyframes paragraph {
+    from {
+
+        opacity: 0;
+    }
+
+    to {
+
+        opacity: 1;
+    }
+}
+
+p {
+    animation: paragraph linear;
+    animation-timeline: view();
+    animation-range-start: contain 0%;
+    animation-range-end: contain 30%;
+}
+
+h5 {
+    animation: paragraph linear;
+}

@@ -1,0 +1,61 @@
+.profile-img {
+
+    height: 50px;
+    cursor: pointer;
+}
+
+/* Add hover effect to the profile image */
+.profile-img:hover {
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5));
+    /* Adjust the shadow color and intensity as needed */
+}
+
+.open-menu {
+    display: block;
+    /* or any other appropriate styles to show the submenu */
+}
+
+/* nav {
+    position: relative !important;
+} */
+
+.sub-menu-wrap {
+    position: absolute;
+    top: 100%;
+    right: 0%;
+    width: 240px;
+    z-index: 999;
+    overflow: hidden;
+    max-height: 0px;
+    transition: max-height 0.5s;
+}
+
+@media (max-width: 767px) {
+    .sub-menu-wrap {
+        right: 40%;
+    }
+}
+
+.sub-menu-wrap.open-menu {
+    max-height: 400px;
+}
+
+.sub-menu-wrap a {
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.sub-menu {
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: #ffffff
+}
+
+
+
+.user-info h3 {
+    font-weight: 500;
+
+}
